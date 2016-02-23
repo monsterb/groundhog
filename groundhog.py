@@ -5,3 +5,5 @@
 # email:       unix.s3c (at) gmail (dot) com
 # filename:    groundhog.py
 # version:     0.00
+
+# This is the main executable file for groundhog.
