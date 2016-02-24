@@ -6,7 +6,7 @@
 # filename:    gh_domain.py
 # version:     0.00
 
-# To get the top level domain name from the URL given:
+# Get the top level domain name from the URL given:
 
 from tld import get_tld
 
