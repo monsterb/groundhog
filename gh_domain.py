@@ -15,4 +15,4 @@ def get_domain_name(url):
     return domain_name
 
 # testing 123
-# print(get_domain_name('https://www.oggcastplanet.org'))
+print(get_domain_name('https://www.oggcastplanet.org'))
