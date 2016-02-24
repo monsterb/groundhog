@@ -6,6 +6,8 @@
 # filename:    gh_ipaddr.py
 # version:     0.00
 
+# Get just the ip address from host:
+
 import os
 
 def get_ip_address(url):
@@ -16,4 +18,4 @@ def get_ip_address(url):
     return results[marker:].splitlines()[0]
 
 # Testing 123
-#print(get_ip_address('oggcastplanet.org'))
+#print(get_ip_address(''))
