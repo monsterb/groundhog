@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 #
-# author:      monsterb (https://www.monsterb.org)
+# author:      monsterb (http://monsterb.github.io)
 # discription: module for groundhog - Information gathering tool for pentesters.
-# email:       unix.s3c (at) gmail (dot) com
+# email:       UNIX.S3C (at) gmail (dot) com
 # filename:    gh_den.py
 # version:     0.00
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 #
-# author:      monsterb (https://www.monsterb.org)
+# author:      monsterb (http://monsterb.github.io)
 # discription: groundhog - Information gathering tool for pentesters.
-# email:       unix.s3c (at) gmail (dot) com
+# email:       UNIX.S3C (at) gmail (dot) com
 # filename:    groundhog.py
 # version:     0.00
 
@@ -37,6 +37,6 @@ def create_report(name, full_url, gh_domain, gh_nmap, gh_robots, gh_whois):
     write_file(target_dir + '/robots.txt', gh_robots)
     write_file(target_dir + '/whois.txt', gh_whois)
     
-#gather_info('folder name goes here', 'url goes here')
+gather_info('OCP', 'https://www.oggcastplanet.org')
 
     
