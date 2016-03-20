@@ -6,6 +6,8 @@
 # filename:    gh_den.py
 # version:     0.00
 
+# Create directories for our files:
+
 import os
 
 def create_dir(directory):

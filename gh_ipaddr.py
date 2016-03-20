@@ -15,6 +15,7 @@ def get_ip_address(url):
     process = os.popen(command)
     results = str(process.read())
     marker = results.find('has address') + 12
+    print("IP Address Completed!")
     return results[marker:].splitlines()[0]
 
 # Testing 123

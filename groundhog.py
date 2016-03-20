@@ -37,6 +37,7 @@ def create_report(name, full_url, gh_domain, gh_nmap, gh_robots, gh_whois):
     write_file(target_dir + '/robots.txt', gh_robots)
     write_file(target_dir + '/whois.txt', gh_whois)
     
-gather_info('OCP', 'https://www.oggcastplanet.org')
+# Testing 123
+#gather_info('folder', 'url goes here')
 
     

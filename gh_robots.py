@@ -18,6 +18,7 @@ def get_robots_txt(url):
         path = url + '/'
     req = urllib.request.urlopen(path + "robots.txt", data=None)
     data = io.TextIOWrapper(req, encoding='utf-8')
+    print("robots.txt Scan Completed!")
     return data.read()
 
 # Testing 123

@@ -12,6 +12,7 @@ from tld import get_tld
 
 def get_domain_name(url):
     domain_name = get_tld(url)
+    print("Top Level Domain Scan Completed!")
     return domain_name
 
 # Testing 123
