@@ -15,6 +15,9 @@ from gh_nmap import *
 from gh_robots import *
 from gh_whois import *
 
+url = input("Enter web address: ")
+name = input("Enter name of folder to save results: ")
+
 ROOT_DIR = 'targets'
 create_dir(ROOT_DIR)
 
@@ -39,5 +42,7 @@ def create_report(name, full_url, gh_domain, gh_nmap, gh_robots, gh_whois):
     
 # Testing 123
 #gather_info('folder', 'url goes here')
+
+gather_info(name,url)
 
     
